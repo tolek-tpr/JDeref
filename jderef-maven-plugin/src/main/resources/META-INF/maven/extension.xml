@@ -1,0 +1,13 @@
+<extension>
+    <components>
+        <component>
+            <role>
+                org.apache.maven.AbstractMavenLifecycleParticipant
+            </role>
+            <role-hint>jderef</role-hint>
+            <implementation>
+                pl.epsi.DerefLifecycle
+            </implementation>
+        </component>
+    </components>
+</extension>
